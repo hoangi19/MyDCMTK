@@ -1,3 +1,0 @@
-C:/Users/Hoangi19/Desktop/MyDCMTK/Query/build/CMakeFiles/FindSCU.dir
-C:/Users/Hoangi19/Desktop/MyDCMTK/Query/build/CMakeFiles/edit_cache.dir
-C:/Users/Hoangi19/Desktop/MyDCMTK/Query/build/CMakeFiles/rebuild_cache.dir
