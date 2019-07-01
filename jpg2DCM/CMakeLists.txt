@@ -8,7 +8,7 @@ find_package(DCMTK)
 
 #find_package(OpenCV)
 
-include_directories(${DCMTK_INCLUDE_DIRS})
+include_directories(${DCMTK_DIR}/include)
 #include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_executable(jpg2dcm jpg2dcm.cpp)

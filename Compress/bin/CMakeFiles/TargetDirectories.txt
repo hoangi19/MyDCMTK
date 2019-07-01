@@ -1,3 +1,0 @@
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/bin/CMakeFiles/Compress.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/bin/CMakeFiles/ALL_BUILD.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/bin/CMakeFiles/ZERO_CHECK.dir

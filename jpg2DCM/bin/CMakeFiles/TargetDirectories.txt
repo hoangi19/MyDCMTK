@@ -1,3 +1,0 @@
-C:/Users/Hoangi19/Desktop/CompressDicom/jpg2DCM/bin/CMakeFiles/jpg2dcm.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/jpg2DCM/bin/CMakeFiles/ALL_BUILD.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/jpg2DCM/bin/CMakeFiles/ZERO_CHECK.dir

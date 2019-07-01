@@ -1,3 +1,0 @@
-G:\Cmake\bin\cmake.exe -E remove -f CMakeFiles\Compress.dir/objects.a
-G:\Code\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\Compress.dir/objects.a @CMakeFiles\Compress.dir\objects1.rsp
-G:\Code\MinGW64\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\Compress.dir/objects.a -Wl,--no-whole-archive  -o Compress.exe -Wl,--out-implib,libCompress.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Compress.dir\linklibs.rsp

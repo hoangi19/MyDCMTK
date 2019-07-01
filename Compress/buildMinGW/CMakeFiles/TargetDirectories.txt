@@ -1,3 +1,0 @@
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/buildMinGW/CMakeFiles/rebuild_cache.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/buildMinGW/CMakeFiles/Compress.dir
-C:/Users/Hoangi19/Desktop/CompressDicom/Compress/buildMinGW/CMakeFiles/edit_cache.dir
