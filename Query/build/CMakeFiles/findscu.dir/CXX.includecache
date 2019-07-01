@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Hoangi19/Desktop/MyDCMTK/Query/findscu.cpp
+dcmtk/dcmnet/dfindscu.h
+C:/Users/Hoangi19/Desktop/MyDCMTK/Query/dcmtk/dcmnet/dfindscu.h
+dcmtk/dcmtls/tlsopt.h
+C:/Users/Hoangi19/Desktop/MyDCMTK/Query/dcmtk/dcmtls/tlsopt.h
+
