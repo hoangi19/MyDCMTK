@@ -1,3 +1,3 @@
-G:\Cmake\bin\cmake.exe -E remove -f CMakeFiles\findscu.dir/objects.a
-G:\Code\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\findscu.dir/objects.a @CMakeFiles\findscu.dir\objects1.rsp
-G:\Code\MinGW64\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\findscu.dir/objects.a -Wl,--no-whole-archive  -o findscu.exe -Wl,--out-implib,libfindscu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\findscu.dir\linklibs.rsp
+G:\Cmake\bin\cmake.exe -E remove -f CMakeFiles\FindSCU.dir/objects.a
+G:\Code\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\FindSCU.dir/objects.a @CMakeFiles\FindSCU.dir\objects1.rsp
+G:\Code\MinGW64\mingw64\bin\g++.exe    -Wl,--whole-archive CMakeFiles\FindSCU.dir/objects.a -Wl,--no-whole-archive  -o FindSCU.exe -Wl,--out-implib,libFindSCU.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FindSCU.dir\linklibs.rsp

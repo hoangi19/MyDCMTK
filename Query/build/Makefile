@@ -110,31 +110,31 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named findscu
+# Target rules for targets named FindSCU
 
 # Build rule for target.
-findscu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 findscu
-.PHONY : findscu
+FindSCU: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FindSCU
+.PHONY : FindSCU
 
 # fast build rule for target.
-findscu/fast:
-	$(MAKE) -f CMakeFiles\findscu.dir\build.make CMakeFiles/findscu.dir/build
-.PHONY : findscu/fast
+FindSCU/fast:
+	$(MAKE) -f CMakeFiles\FindSCU.dir\build.make CMakeFiles/FindSCU.dir/build
+.PHONY : FindSCU/fast
 
 # target to build an object file
 findscu.obj:
-	$(MAKE) -f CMakeFiles\findscu.dir\build.make CMakeFiles/findscu.dir/findscu.obj
+	$(MAKE) -f CMakeFiles\FindSCU.dir\build.make CMakeFiles/FindSCU.dir/findscu.obj
 .PHONY : findscu.obj
 
 # target to preprocess a source file
 findscu.i:
-	$(MAKE) -f CMakeFiles\findscu.dir\build.make CMakeFiles/findscu.dir/findscu.i
+	$(MAKE) -f CMakeFiles\FindSCU.dir\build.make CMakeFiles/FindSCU.dir/findscu.i
 .PHONY : findscu.i
 
 # target to generate assembly for a file
 findscu.s:
-	$(MAKE) -f CMakeFiles\findscu.dir\build.make CMakeFiles/findscu.dir/findscu.s
+	$(MAKE) -f CMakeFiles\FindSCU.dir\build.make CMakeFiles/FindSCU.dir/findscu.s
 .PHONY : findscu.s
 
 # Help Target
@@ -143,7 +143,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... findscu
+	@echo ... FindSCU
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... findscu.obj

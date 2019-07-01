@@ -48,52 +48,94 @@ CMAKE_SOURCE_DIR = C:\Users\Hoangi19\Desktop\MyDCMTK\Query
 CMAKE_BINARY_DIR = C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/findscu.dir/depend.make
+include CMakeFiles/FindSCU.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/findscu.dir/progress.make
+include CMakeFiles/FindSCU.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/findscu.dir/flags.make
+include CMakeFiles/FindSCU.dir/flags.make
 
-CMakeFiles/findscu.dir/findscu.obj: CMakeFiles/findscu.dir/flags.make
-CMakeFiles/findscu.dir/findscu.obj: ../findscu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/findscu.dir/findscu.obj"
-	G:\Code\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\findscu.dir\findscu.obj -c C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp
+CMakeFiles/FindSCU.dir/findscu.obj: CMakeFiles/FindSCU.dir/flags.make
+CMakeFiles/FindSCU.dir/findscu.obj: CMakeFiles/FindSCU.dir/includes_CXX.rsp
+CMakeFiles/FindSCU.dir/findscu.obj: ../findscu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FindSCU.dir/findscu.obj"
+	G:\Code\MinGW64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FindSCU.dir\findscu.obj -c C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp
 
-CMakeFiles/findscu.dir/findscu.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/findscu.dir/findscu.i"
-	G:\Code\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp > CMakeFiles\findscu.dir\findscu.i
+CMakeFiles/FindSCU.dir/findscu.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FindSCU.dir/findscu.i"
+	G:\Code\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp > CMakeFiles\FindSCU.dir\findscu.i
 
-CMakeFiles/findscu.dir/findscu.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/findscu.dir/findscu.s"
-	G:\Code\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp -o CMakeFiles\findscu.dir\findscu.s
+CMakeFiles/FindSCU.dir/findscu.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FindSCU.dir/findscu.s"
+	G:\Code\MinGW64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hoangi19\Desktop\MyDCMTK\Query\findscu.cpp -o CMakeFiles\FindSCU.dir\findscu.s
 
-# Object files for target findscu
-findscu_OBJECTS = \
-"CMakeFiles/findscu.dir/findscu.obj"
+# Object files for target FindSCU
+FindSCU_OBJECTS = \
+"CMakeFiles/FindSCU.dir/findscu.obj"
 
-# External object files for target findscu
-findscu_EXTERNAL_OBJECTS =
+# External object files for target FindSCU
+FindSCU_EXTERNAL_OBJECTS =
 
-findscu.exe: CMakeFiles/findscu.dir/findscu.obj
-findscu.exe: CMakeFiles/findscu.dir/build.make
-findscu.exe: CMakeFiles/findscu.dir/linklibs.rsp
-findscu.exe: CMakeFiles/findscu.dir/objects1.rsp
-findscu.exe: CMakeFiles/findscu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable findscu.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\findscu.dir\link.txt --verbose=$(VERBOSE)
+FindSCU.exe: CMakeFiles/FindSCU.dir/findscu.obj
+FindSCU.exe: CMakeFiles/FindSCU.dir/build.make
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libofstd.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/liboflog.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmdata.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libi2d.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmimgle.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmimage.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmjpeg.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libijg8.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libijg12.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libijg16.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmjpls.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libcharls.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmtls.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmnet.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmsr.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libcmr.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmdsig.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmwlm.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmqrdb.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmpstat.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmrt.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmiod.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmfg.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmseg.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmtract.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmpmap.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmtls.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmsr.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmimage.a
+FindSCU.exe: C:/Program\ Files\ (x86)/tiff/lib/libtiff.dll.a
+FindSCU.exe: C:/Program\ Files\ (x86)/libpng/lib/libpng.dll.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmdsig.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmqrdb.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmnet.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmimgle.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmfg.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmiod.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libdcmdata.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/liboflog.a
+FindSCU.exe: G:/Code/DCMTKPACKAGE/DCMTK/lib/libofstd.a
+FindSCU.exe: C:/Program\ Files\ (x86)/zlib/lib/libzlib.dll.a
+FindSCU.exe: CMakeFiles/FindSCU.dir/linklibs.rsp
+FindSCU.exe: CMakeFiles/FindSCU.dir/objects1.rsp
+FindSCU.exe: CMakeFiles/FindSCU.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FindSCU.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FindSCU.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/findscu.dir/build: findscu.exe
+CMakeFiles/FindSCU.dir/build: FindSCU.exe
 
-.PHONY : CMakeFiles/findscu.dir/build
+.PHONY : CMakeFiles/FindSCU.dir/build
 
-CMakeFiles/findscu.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\findscu.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/findscu.dir/clean
+CMakeFiles/FindSCU.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\FindSCU.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/FindSCU.dir/clean
 
-CMakeFiles/findscu.dir/depend:
+CMakeFiles/FindSCU.dir/depend:
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hoangi19\Desktop\MyDCMTK\Query C:\Users\Hoangi19\Desktop\MyDCMTK\Query C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build C:\Users\Hoangi19\Desktop\MyDCMTK\Query\build\CMakeFiles\findscu.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/findscu.dir/depend
+.PHONY : CMakeFiles/FindSCU.dir/depend
 
