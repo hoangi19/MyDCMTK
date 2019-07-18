@@ -5,6 +5,7 @@ build/
 buildMinGW/
 bin/
 BIN/
+*.exe
 
 ### CMake ###
 CMakeLists.txt.user

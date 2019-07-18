@@ -53,7 +53,7 @@ int main(int argc, char const *argv[])
         else peerTitle = inAEC.c_str();
     
     string queryInfomationModel;
-    cout << "query information model : --worklist --patient --study --psonly ";
+    cout << "query information model ( --worklist --patient --study --psonly ) : ";
     cin >> queryInfomationModel;
     if (queryInfomationModel ==  ("--worklist")) abstractSyntax = UID_FINDModalityWorklistInformationModel;
     if (queryInfomationModel ==  ("--patient"))  abstractSyntax = UID_FINDPatientRootQueryRetrieveInformationModel;
